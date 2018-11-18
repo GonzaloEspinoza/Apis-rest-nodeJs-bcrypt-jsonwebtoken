@@ -1,0 +1,30 @@
+{
+  "name": "apirest-nodejs-login-passport",
+  "version": "1.0.0",
+  "description": "NodeJs-login-passport-exxpres-MongoBd",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gonzalo Espinoza",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.4.0",
+    "jwt-simple": "^0.5.5",
+    "mongoose": "^5.3.11",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
